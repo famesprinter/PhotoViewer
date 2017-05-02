@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15557B6399138D755D2B5202 /* Pods_PhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DA5FE97DFE632CCF6DBF78 /* Pods_PhotoViewer.framework */; };
 		F03C16F71EB853CE005BC4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C16F61EB853CE005BC4E8 /* AppDelegate.swift */; };
 		F03C16F91EB853CE005BC4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C16F81EB853CE005BC4E8 /* ViewController.swift */; };
 		F03C16FC1EB853CE005BC4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03C16FA1EB853CE005BC4E8 /* Main.storyboard */; };
 		F03C16FE1EB853CE005BC4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03C16FD1EB853CE005BC4E8 /* Assets.xcassets */; };
 		F03C17011EB853CE005BC4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03C16FF1EB853CE005BC4E8 /* LaunchScreen.storyboard */; };
+		F03C17091EB855C3005BC4E8 /* birds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F03C17081EB855C3005BC4E8 /* birds.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79CA90F1AAF87E92BBEB2290 /* Pods-PhotoViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoViewer/Pods-PhotoViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		942C8193D41733D04E358F08 /* Pods-PhotoViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoViewer/Pods-PhotoViewer.release.xcconfig"; sourceTree = "<group>"; };
+		A2DA5FE97DFE632CCF6DBF78 /* Pods_PhotoViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03C16F31EB853CE005BC4E8 /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03C16F61EB853CE005BC4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03C16F81EB853CE005BC4E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		F03C16FD1EB853CE005BC4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03C17001EB853CE005BC4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03C17021EB853CE005BC4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03C17081EB855C3005BC4E8 /* birds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = birds.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15557B6399138D755D2B5202 /* Pods_PhotoViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88401351FB6EB6906F6FAAF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79CA90F1AAF87E92BBEB2290 /* Pods-PhotoViewer.debug.xcconfig */,
+				942C8193D41733D04E358F08 /* Pods-PhotoViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3AF25F5C99072269544215B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2DA5FE97DFE632CCF6DBF78 /* Pods_PhotoViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F03C16EA1EB853CE005BC4E8 = {
 			isa = PBXGroup;
 			children = (
 				F03C16F51EB853CE005BC4E8 /* PhotoViewer */,
 				F03C16F41EB853CE005BC4E8 /* Products */,
+				88401351FB6EB6906F6FAAF5 /* Pods */,
+				E3AF25F5C99072269544215B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +80,7 @@
 		F03C16F51EB853CE005BC4E8 /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				F03C17081EB855C3005BC4E8 /* birds.jpg */,
 				F03C16F61EB853CE005BC4E8 /* AppDelegate.swift */,
 				F03C16F81EB853CE005BC4E8 /* ViewController.swift */,
 				F03C16FA1EB853CE005BC4E8 /* Main.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F03C17051EB853CE005BC4E8 /* Build configuration list for PBXNativeTarget "PhotoViewer" */;
 			buildPhases = (
+				8FDF027A992F28E32EDBB035 /* [CP] Check Pods Manifest.lock */,
 				F03C16EF1EB853CE005BC4E8 /* Sources */,
 				F03C16F01EB853CE005BC4E8 /* Frameworks */,
 				F03C16F11EB853CE005BC4E8 /* Resources */,
+				CD64AF02050234D3B5784D15 /* [CP] Embed Pods Frameworks */,
+				0E07D6DEE2DDFDA2F175B4C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03C17091EB855C3005BC4E8 /* birds.jpg in Resources */,
 				F03C17011EB853CE005BC4E8 /* LaunchScreen.storyboard in Resources */,
 				F03C16FE1EB853CE005BC4E8 /* Assets.xcassets in Resources */,
 				F03C16FC1EB853CE005BC4E8 /* Main.storyboard in Resources */,
@@ -130,6 +161,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E07D6DEE2DDFDA2F175B4C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoViewer/Pods-PhotoViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDF027A992F28E32EDBB035 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD64AF02050234D3B5784D15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoViewer/Pods-PhotoViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F03C16EF1EB853CE005BC4E8 /* Sources */ = {
@@ -258,6 +337,7 @@
 		};
 		F03C17061EB853CE005BC4E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CA90F1AAF87E92BBEB2290 /* Pods-PhotoViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
@@ -270,6 +350,7 @@
 		};
 		F03C17071EB853CE005BC4E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942C8193D41733D04E358F08 /* Pods-PhotoViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
@@ -299,6 +380,7 @@
 				F03C17071EB853CE005BC4E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,12 @@
+PODS:
+  - SKPhotoBrowser (4.0.0)
+
+DEPENDENCIES:
+  - SKPhotoBrowser
+
+SPEC CHECKSUMS:
+  SKPhotoBrowser: bc33eca22f4abd6b99d8d260509ca30c01752a87
+
+PODFILE CHECKSUM: 454ba7636043cc83f10367ce44a935df8b9bab8e
+
+COCOAPODS: 1.1.1

@@ -7,19 +7,27 @@
 //
 
 import UIKit
+import SKPhotoBrowser
 
 class ViewController: UIViewController {
+    // MARK: IBOutlet
+    @IBOutlet weak var img: UIImageView!
 
+    // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    // MARK: IBAction
+    @IBAction func tapImage() {
+        var images = [SKPhoto]()
+        let photo = SKPhoto.photoWithImage(img.image!)
+        images.append(photo)
+        
+        let browser = SKPhotoBrowser(photos: images)
+        browser.initializePageIndex(0)
+        present(browser, animated: true, completion: {})
     }
-
-
 }
 

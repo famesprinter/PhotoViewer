@@ -7,4 +7,6 @@ target 'PhotoViewer' do
 
   # Pods for PhotoViewer
 
+  pod 'SKPhotoBrowser'
+
 end
